@@ -10,7 +10,7 @@ public class Main {
         System.out.print("Masukkan angka pertama: ");
         angka1 = input.nextDouble();
 
-        System.out.print("Masukkan operator (+, -, *, /): ");
+        System.out.print("Masukkan operator (+, -, *, /,^): ");
         operator = input.next().charAt(0);
 
         System.out.print("Masukkan angka kedua: ");
