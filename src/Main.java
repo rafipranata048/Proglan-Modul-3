@@ -6,7 +6,7 @@ public class Main {
         double angka1, angka2, hasil;
         char operator;
 
-        System.out.println("=== Program Kalkulator Sederhana ===");
+        System.out.println(" Program Kalkulator Sederhana ");
         System.out.print("Masukkan angka pertama: ");
         angka1 = input.nextDouble();
 
