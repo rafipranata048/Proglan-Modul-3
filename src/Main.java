@@ -20,6 +20,9 @@ public class Main {
             case '+':
                 hasil = angka1 + angka2;
                 break;
+            case '^':
+                hasil = Math.pow(angka1, angka2);
+                break;
             case '-':
                 hasil = angka1 - angka2;
                 break;
@@ -29,6 +32,7 @@ public class Main {
             case '/':
                 if (angka2 != 0)
                     hasil = angka1 / angka2;
+
                 else {
                     System.out.println("Error: Pembagian dengan nol tidak diperbolehkan!");
                     return;
